@@ -1,0 +1,6 @@
+1. Install lower version of web3 to be able to create a web3 object
+2. web3.eth.accounts is depracated. Use window.ethereum
+3. "window" throws an error while being rendered in the server side, hence web3 object will not be created. Hence, use useEffect hook to create the web3 object.
+4. after deploying the smart contract, verify the smart contract to see a green tick on etherscan and check your contract's code.
+5. In our metadata we'll be having an image, the description of the blog and the external url
+6. In he external url we'll have the title of the blog and it's content.
